@@ -1,0 +1,700 @@
+{
+  "settings": {
+    "currentPage": "IMF.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.8.7",
+    "uniqCompNum": 23,
+    "versionPublish": "3.9.2",
+    "publishType": "github",
+    "publishPath": "file:///E:/%D0%A1%D0%B0%D0%B9%D1%82%20%D0%BC%D0%BE%D0%BD%D1%96%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D1%83/IMF/imf_page",
+    "favicon": "@PROJECT_PATH@/assets/images/untitled-128x128-98.jpg",
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-72607418-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-370x128-93.png",
+              "height": 128,
+              "alt": "NOKS FISHES",
+              "link": "http://noksfishes.info/",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NOKS FISHES</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        }
+      ]
+    },
+    "IMF.html": {
+      "settings": {
+        "title": "МВФ И УКРАИНСКИЕ МЕДИА",
+        "meta_descr": "МВФ И УКРАИНСКИЕ МЕДИА"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "font-size": "60px"
+            },
+            ".mbr-section-lead": {
+              "font-size": "20px"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-size": "21px"
+            }
+          },
+          "_anchor": "header1-2",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/newspapers-01-mod1.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "МВФ И УКРАИНСКИЕ МЕДИА",
+          "text": "<br><br><span style=\"line-height: 1.5;\">Находясь в перманентном ожидании финансирования от МВФ, власть мало говорит о сути реформ, а медиа — мало интересуются собственно реформами</span><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "content1-3",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#efefef"
+          },
+          "text": "<p>Много слов – мало разговоров по сути. Еще меньше — действий по сути. Такой результат анализа исследовательской компанией NOKS FISHES медиаполя четырёх процессов, содержание которых детально описано в Меморандуме о взаимодействии Украины и МВФ, а именно – процесса приватизации, налоговой, пенсионной реформ и реформы коммунальных тарифов.&nbsp;</p><p><br></p><p>Что объединяет медийное поле всех четырех процессов? Очень незначительный процент текстов содержит описание реформ в том виде, в каком они описаны в Меморандуме, в документе, в котором по сути сформулированы условия кредитования Фондом Украины. Ещё меньше текстов, в которых при описании реформы упоминается Фонд.&nbsp;</p><p><br></p><p>О чем свидетельствует такая картина? Власть, увы, как мало говорит о сути реформ, так и о невозможности получения денег от МВФ при условии отклонения от ядра реформирования. Медиа не имеют — в силу разных причин — интереса к собственно реформам и концентрируются на популистской стороне процессов.&nbsp;</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "content6-7",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>ПРИВАТИЗАЦИЯ</b></p><p><br></p><p>В течение 9 мес. т. г. о приватизации и реформе управления госсобственностью писали почти в 2,5 раза больше, чем о налогах, тарифах и пенсионной системе. Специфика же медиаполя данного процесса состоит в том, что текстов о приватизации в контексте, описанном в Меморандуме о сотрудничестве Украины и МВФ, критически мало — 16% от общей массы. </p><p><br></p><p>Говоря о приватизации, Меморандум оперирует следующими базовыми параметрами - сокращение перечня не приватизируемых объектов, приватизация ОПЗ до конца 2016г. и облэнерго до марта 2017 г., проверка информации о потенциальных собственниках приватизируемых объектов и т.д.</p>",
+          "text2": "<p><br></p><p><br></p><p><span style=\"font-size: 14px; line-height: 1.5;\">Ещё одной особенностью публичного обсуждения приватизации является невысокий процент совместных упоминаний процесса приватизации и МВФ, что свидетельствует об отсутствии желания у власти выносить в публичное поле обсуждение прямой зависимости между финансированием Украины Фондом и, например, сроками приватизации ОПЗ и облэнерго или снятием моратория на продажу земли.</span><br></p><p><span style=\"font-size: 14px; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 14px; line-height: 1.5;\">По каким причинам СМИ не делали акцент на взаимосвязи этих двух процессов, можно лишь догадываться (незнание темы, отражение позиции собственников медиа и др.)</span><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-8",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgColor": "#aec9cd"
+          },
+          "text": "<blockquote><p>Результат – парламент не рассмотрел законопроект о сокращении не подлежащих приватизации объектов в с/х и транспортной отрасли, практически сорваны сроки приватизации ОПЗ, на грани срыва и сроки приватизации облэнерго</p></blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "content6-9",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#efefef"
+          },
+          "text1": "<p><b>НАЛОГОВАЯ РЕФОРМА</b></p><p><br></p><p><span style=\"font-size: 14px; line-height: 1.5;\">В течение 9 мес. с.г. налоговая реформа получила наименьшее медиаполе (из 4 анализируемых процессов), что, наш взгляд, отражает, с одной стороны, реальные приоритеты власти, с другой – недооценку медиа роли налоговой реформы в модернизации Украины.</span></p><p><span style=\"font-size: 14px; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 14px; line-height: 1.5;\">При этом практически в семи публикациях из десяти на тему налоговой реформы присутствует проблематика, интересующая МВФ, а именно – ре-</span></p><p><span style=\"font-size: 14px; line-height: 1.5;\">ф</span><span style=\"font-size: 14px; line-height: 1.5;\">орма системы единого налогообложения,&nbsp;</span><span style=\"font-size: 14px; line-height: 1.5;\">реформа ДФС, объединение налоговой и таможенной служб, ликвидация налоговой полиции,&nbsp;</span></p>",
+          "text2": "<p><br></p><p><br></p><p>повышение акцизов, создание управления внутренних расследований в ДФС и т.д.</p><p><br></p><p>Несмотря на высокий процент реформаторской риторики в медиаполе реформы, совместных упоминаний МВФ и налоговой трансформации критически мало (до 7%), что демонстрирует недооценку СМИ фактора успешной налоговой реформы (которая, в конечном итоге, приведёт, как минимум, к сокращению дефицита украинского бюджета) для пролонгации сотрудничества Украина и Фонда.&nbsp;</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "content6-a",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>РЕФОРМИРОВАНИЕ СИСТЕМЫ ПЛАТЕЖЕЙ</b></p><p><b>ЗА КОММУНАЛЬНЫЕ УСЛУГИ</b></p><p><br></p><p>Данный процесс имеет максимальное совпадение связанной с ним медийной лексики и контента Меморандума МВФ и Украины в той его части, которая регламентирует модернизацию системы.</p><p><br></p><p>Более 85% украинских текстов, посвящённых, если упрощённо, теме «тарифов» содержали лексику Меморандума, а именно – либерализация тарифов, монетизации субсидий, рынок природного газа, реструктуризация долгов предприятий ТЭК, ежеквартальная корректировка тарифов и т.д.</p><p><br></p><p>При этом, медиаполе данной реформы/процесса содержит, как это не&nbsp;</p>",
+          "text2": "<p><br></p><p><br></p><p><br></p><p>парадоксально, минимальное количество упоминаний Фонда (в среднем — 5%), что свидетельствует о нежелании украинского политического класса связывать в публичной сфере напрямую реформирование данной сферы с перспективами кредитования Украины Фондом.</p><p><br></p><p>По каким причинам отечественные медиа практически не говорили о том, что без реформы системы тарифообразования находящаяся в тяжелейшем финансовом состоянии Украина останется без единственно возможной на сегодняшний день кредитной поддержки Фонда, можно только догадываться (позиция собственников, некомпетентность, незнание и т.д.).</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-b",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgColor": "#aec9cd"
+          },
+          "text": "<blockquote>В сухом остатке – до монетизации субсидий далеко, очень далеко. Субсидиарные деньги продолжают поступать к плательщикам через финансовые институты, аффилированные с поставщиками услуг</blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "content6-c",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#efefef"
+          },
+          "text1": "<p><b>ПЕНСИОННАЯ РЕФОРМА</b></p><p><br></p><p>О пенсионной реформе украинские медиа писали приблизительно столько же, сколько и о налоговой реформе и «реформе тарифов».</p><p><br></p><p>Неожиданно, но каждый третий текст (!) на тему реформы содержал лексику Меморандума, а именно — или повышение пенсионного возраста, или ужесточение требований для получения минимальной пенсии, или единые правила получения пенсионных льгот, или расширение базы плательщиков единого социального налога, или сокращение дефицита Пенсионного Фонда.</p><p><br></p><p>Самой обсуждаемой, конечно, была тема повышения пенсионного возраста.</p>",
+          "text2": "<p><br></p><p><br></p><p><span style=\"font-size: 14px; line-height: 1.5;\">Отметим, что в медиаполе пенсионной реформы больше всего совместных упоминаний с МВФ.</span><br></p><p><br></p><p>Однако, такая частота совместных упоминаний не связана с обсуждением в медиа, например, конструктивного сценария преодоления дефицита Пенсионного Фонда, что является одним из условий финансовой поддержки Украины со стороны МВФ.</p><p><br></p><p>Как правило, МВФ упоминался как автор идеи повышения пенсионного возраста, на которую болезненно отреагировала большая часть украинцев.&nbsp;</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-d",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgColor": "#aec9cd"
+          },
+          "text": "<blockquote>В результате — отсутствие единой позиции власти относительно перспектив повышения пенсионного возраста, отсутствие утверждённой и внесённой на обсуждение парламента концепции реформирования ПС, предложение повышения минимальных ЗП является едва ли не главным источником сокращения дефицита ПФ.&nbsp;</blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-e",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/newspapers-01-mod1-2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/block-1.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/block-2.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/block-3.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-1.png",
+              "height": 128,
+              "alt": "NOKS FISHES - media research & consalting",
+              "link": "#bottom",
+              "title": "NOKS FISHES - media research & consalting",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NOKS FISHES</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "contacts3",
+          "_styles": {
+            "p, .list-group-text, .form-control-label": {
+              "color": "#000"
+            },
+            "strong, h4": {
+              "color": "#7e9b9f"
+            },
+            "form .form-control": {
+              "border-color": "rgba(0, 0, 0, 0.2)",
+              "color": "#565656"
+            },
+            ".mbr-footer-content li": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
+            },
+            ".mbr-company .list-group-text::after": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts5",
+          "_anchor": "contacts5-k",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1logo-shadowmediavershky3-6.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "Ми пропонуємо технології та послуги щодо збору, систематизації та аналізу інформаційних та рекламних проявів, а також проведення репутаційних досліджень.",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "(+38044) 338-86-64<br>(+38095) 140-48-62<br>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "НОКС ФІШЕC, ПП <br>15, вул. Ревуцького,<br>офіс 10, Київ, Україна<br>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<p><a href=\"mailto:mediavershky@gmail.com\" style=\"font-size: 0.875rem; line-height: 1.6;\" target=\"_blank\">mediavershky@gmail.com</a><br></p><p><a href=\"mailto:support@mobirise.com\"></a></p>",
+          "title1": "<br><br><br><br>Наші дослідження<br>",
+          "text5": "<li><a href=\"http://noksfishes.info/index.php/component/tags/tag/4-banky\" target=\"_blank\">Фінансовий сектор</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"http://noksfishes.info/index.php/component/tags/tag/9-polityka\" target=\"_blank\">Політика</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"http://noksfishes.info/index.php/component/tags/tag/18-rehiony\" target=\"_blank\">Регіони</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"http://noksfishes.info/index.php/component/tags/tag/2-telekom\" target=\"_blank\">Телекомунікаційні компанії</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"http://noksfishes.info/index.php/component/tags/tag/12-sotsmedia\" target=\"_blank\">Соціальні медіа</a><a class=\"text-primary\" href=\"#\"></a></li>",
+          "text6": "<strong><br></strong><br><strong><br></strong><br><strong>Комунікації</strong><br>Без вагань&nbsp;звертайтеся<br>до нас&nbsp;за консультацією.<br><br>Контактну інформацію тут<br>наведено.<br><br>Або скористайтеся формою<br>швидкого листування праворуч.<br><br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "mediavershky@gmail.com",
+            "alerts": {
+              "success": "Дякуємо, що звернулися до нас!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Ваше ім’я"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Ваш Email"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Текст"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Надіслати нам</a>"
+        }
+      ]
+    }
+  }
+}
